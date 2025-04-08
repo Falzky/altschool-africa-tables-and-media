@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media</title>
+</head>
+<body>
+
+    <h1>About Me</h1>
+
+    <h2>Responsive Image</h2>
+    <picture>
+        <!-- Image for mobile -->
+        <source srcset="https://via.placeholder.com/300x200" media="(max-width: 600px)">
+        <!-- Image for tablet -->
+        <source srcset="https://via.placeholder.com/600x400" media="(max-width: 900px)">
+        <!-- Image for laptop/desktop -->
+        <source srcset="https://via.placeholder.com/1024x600" media="(min-width: 901px)">
+        <!-- Default image -->
+        <img src="https://via.placeholder.com/800x500" alt="A placeholder representing me">
+    </picture>
+
+    <h2>Introduction Video</h2>
+    <video controls width="320">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Audio Message</h2>
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
+
